@@ -47,13 +47,13 @@ $./run.sh
 ```
 
 # 토픽명(topic name)
-- 토픽형태는 vda5050/agvs/amr_(차량번호)/(토픽명)이며, 차량번호는 0부터 시작합니다.
+- 토픽형태는 interfaceName / majorVersion / manufacturer / serialNumber / topic 이며, 차량번호는 0000부터 시작합니다.
 - ex) 0번차량 토픽명
-  - vda5050/agvs/amr_0/visualization
-  - vda5050/agvs/amr_0/order
-  - vda5050/agvs/amr_0/state
-  - vda5050/agvs/amr_0/instantActions
-  - vda5050/agvs/amr_0/connection
+  - vda5050/v1/ZENIXROBOTICS/0000/visualization
+  - vda5050/v1/ZENIXROBOTICS/0000/order
+  - vda5050/v1/ZENIXROBOTICS/0000/state
+  - vda5050/v1/ZENIXROBOTICS/0000/instantActions
+  - vda5050/v1/ZENIXROBOTICS/0000/connection
 
 
 # 통신 시퀀스(protocol sequence)

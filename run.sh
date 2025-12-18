@@ -8,7 +8,7 @@ sleep 1
 
 sleep 3
 export LD_LIBRARY_PATH="$(pwd)/lib:$LD_LIBRARY_PATH"
-./bin/amr_emulator /home/zenix/test_amr_emulator/config/amr_params.yaml
+./bin/amr_emulator ./config/amr_params.yaml
 
 
 

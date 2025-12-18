@@ -41,9 +41,9 @@ amr_params:
   sensor_used:
     lidar: true
 initial_pose:
-  x: 0.0
-  y: 0.0
-  heading: 0.0 
+  x: 396.0
+  y: 451.0
+  heading: 1.5707963267948966 
 battery_params:
   idle_discharge_per_sec: 0.001 # 유휴기간 0.001%, 정지상태 28시간 후 0% 방전
   max_charge_per_sec: 0.01      # 약 100% 충전소요시간 : 2시간 45분
